@@ -1,0 +1,30 @@
+{
+  "name": "demeyerthom/maybe",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "keywords": [],
+  "type": "project",
+  "authors": [
+    {
+      "name": "Thomas De Meyer",
+      "email": "demeyerthom@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Demeyerthom\\Maybe\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Demeyerthom\\Maybe\\Test\\": "test/"
+    }
+  },
+  "require": {
+    "php": "^7",
+    "chippyash/Monad": "^1.5",
+    "phpunit/phpunit": "^6.2"
+  },
+  "require-dev": {}
+}
